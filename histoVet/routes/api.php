@@ -27,7 +27,7 @@ Route::controller(ClinicalHistoryVeterinaryController::class)->group(function ()
 });
 
 Route::controller(DiagnosticController::class)->group(function () {
-    Route::get('diagnostic','index'); //Para obtener todos
+    Route::get('    ','index'); //Para obtener todos
     Route::get('diagnostic/{id}', 'show'); //Para consultar especifico
     Route::post('diagnostic', 'store'); //Para guardar
     Route::put('diagnostic/{id}', 'update'); //Para actualizar

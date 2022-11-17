@@ -14,6 +14,8 @@ class Diagnostic extends Model
         'description',
         'created_at',
         'update_at',
+        'pet_id',
+        'veterinary_id'
     ];
 
     //Indicar que le pertenece a un usuario

@@ -9,10 +9,10 @@ class ClinicalHistory extends Model
 {
     use HasFactory;
     protected $fillable = [
+        'id',
         'color',
         'create_at',
         'update_at',
-        'color',
         'weight',
         'origin',
         'diet',
@@ -34,6 +34,7 @@ class ClinicalHistory extends Model
         'trcp',
         'percentageDehydratation',
         'mucous',
+        'pet_id'
     ];
 
     //Indicar que le pertenece a un usuario

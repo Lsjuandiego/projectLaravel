@@ -15,9 +15,4 @@ class ClinicalHistoryVeterinary extends Model
         'created_at',
         'update_at',
     ];
-
-    //Indicar que le pertenece a un usuario
-    public function user(){
-        return $this->belongsTo(User::class, 'user_id');
-    }
 }
